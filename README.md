@@ -249,7 +249,7 @@ Classical and Metal are classified most accurately. Country and Rock show genre 
 
 **Training Loss Curve** — `plots/G06_training_loss_curve.png`
 
-![Training Loss Curve](plots/G06_training_loss_curve.png)
+![Training Loss Curve](results/plots/G06_training_loss_curve.png).
 
 Loss decreases steadily across 200 epochs with no divergence, confirming stable model convergence.
 
