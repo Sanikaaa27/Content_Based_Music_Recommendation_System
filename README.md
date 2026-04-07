@@ -241,7 +241,7 @@ P_strategy =  (P_MFCC × w_MFCC + P_Genre × w_Genre + P_Tempo × w_Tempo)
 
 **Confusion Matrix** — `plots/G03_confusion_matrix.png`
 
-![Confusion Matrix](plots/G03_confusion_matrix.png)
+![Confusion Matrix](results/plots/G03_confusion_matrix.png)
 
 Classical and Metal are classified most accurately. Country and Rock show genre overlap, explaining lower recommendation ratings for these genres.
 
