@@ -257,7 +257,7 @@ Loss decreases steadily across 200 epochs with no divergence, confirming stable 
 
 **Strategy Comparison** — `plots/G07_strategy_avg_rating.png`
 
-![Strategy Average Rating](plots/G07_strategy_avg_rating.png)
+![Strategy Average Rating](results/plots/G07_strategy_avg_rating.png)
 
 PrioritizeMFCC achieves the highest average user rating (3.54). All content-based strategies significantly exceed the random baseline (1.51).
 
@@ -265,7 +265,7 @@ PrioritizeMFCC achieves the highest average user rating (3.54). All content-base
 
 **Same-Genre Hit Rate** — `plots/G09_same_genre_hit_rate.png`
 
-![Same Genre Hit Rate](plots/G09_same_genre_hit_rate.png)
+![Same Genre Hit Rate](results/plots/G09_same_genre_hit_rate.png)
 
 PrioritizeMFCC achieves 95.3% same-genre recommendations despite not directly optimizing for genre, demonstrating that MFCCs implicitly encode genre-level structure.
 
@@ -273,7 +273,7 @@ PrioritizeMFCC achieves 95.3% same-genre recommendations despite not directly op
 
 **t-SNE Feature Space** — `plots/G11_tsne_clusters.png`
 
-![t-SNE Clusters](plots/G11_tsne_clusters.png)
+![t-SNE Clusters](results/plots/G11_tsne_clusters.png)
 
 Genre clusters emerge naturally in the 102-dimensional feature space without supervised grouping. Classical and Jazz are tightly separated; Rock and Country overlap, reflecting their acoustic similarity.
 
